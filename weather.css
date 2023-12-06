@@ -133,5 +133,56 @@
       margin-top: 10px;
       display: none;
   }
-
   
+  @media only screen and (min-width: 600px) {
+      /*for large screens*/
+      .search {
+          flex-direction: row;
+      }
+  
+      .search input {
+          margin: 0;
+      }
+  
+      .search button {
+          margin-top: 0;
+          margin-left: 10px;
+      }
+  }
+  
+ 
+@media only screen and (min-width: 600px) {
+    /*for large screens*/
+    .search {
+        flex-direction: row;
+    }
+
+    .search input {
+        margin: 0;
+    }
+
+    .search button {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*for small screens or mobile devices*/
+    body {
+        align-items: flex-start;
+    }
+
+    .card {
+        width: 90%;
+        max-width: none;
+        margin-top: 20px;
+    }
+
+    .search input {
+        width: 100%;
+    }
+    .search button{
+        width: 20%;
+    }
+}
