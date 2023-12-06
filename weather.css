@@ -154,6 +154,7 @@
     /*for small screens or mobile devices*/
     body {
         align-items: flex-start;
+        background-attachment: fixed;
     }
 
     .card {
